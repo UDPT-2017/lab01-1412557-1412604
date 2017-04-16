@@ -4,7 +4,18 @@
 <head>
 	<meta charset="utf-8">
 	<title>Demo Website </title>
+<<<<<<< HEAD
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+=======
+	<meta name="description" content="Demo Website">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="http://engageinteractive.co.uk/assets/css/site.css?v=20170213">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic">
+>>>>>>> origin/master
 	<style>
 	body
 	{
@@ -55,15 +66,14 @@
 </head>
 <body>
 
-<div id="mySidenav" class="sidenav">
+<div id="mySidenav" class="sidenav hidden-xs">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a href="#">Albums</a>
+  <a href="#">Blogs</a>
 </div>
 
-<div id="main">
+<div class="site-wrapper" id="site-wrapper">
 	
 	<!.. Navigation bar ..>
 	<nav class="navbar navbar-inverse " role="navigation" id="my-navbar">
@@ -87,8 +97,14 @@
 				</form> 
 			<ul class="nav navbar-nav">
 				<li><a href="DemoWeb.html">Home</a>
+<<<<<<< HEAD
 				<li><a href = "#about">About</a>
 				<li><a href = "Album.html">Album</a>
+=======
+				<li><a href ="About.html">About</a>
+				<li><a href ="Blog.html">Blog</a>
+				<li><a href ="Albums.html">Albums</a>
+>>>>>>> origin/master
 				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<b class="caret"></b></a>
 					<ul class="dropdown-menu">
        				<li><a href="#">Action</a></li>
@@ -141,18 +157,26 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-6">
-					<blockquote>
-						<p> there is one time i went on a date.</p>
-						<footer>
-							NhoxToong
-						</footer>
-					</blockquote>
+						<a href="illidan.jpg" target="_blank">
+						<blockquote>
+							<p> YOU ARE NOT PERPARED !!!!.</p>
+							<footer>
+								Illidan
+								<img src="illidan.jpg" class="img-circle" alt="Lights" style="width:20%">
+							</footer>
+						</blockquote>
 				</div>
 				<div class="col-lg-6">
+					<a href="Cara_Batman.png" target="_blank">
 					<blockquote>
+<<<<<<< HEAD
 						<p> I love everything but my partner</p>
+=======
+						<p> BECAUSE IM BATMAN</p>
+>>>>>>> origin/master
 						<footer>
-							Bơ
+							<img src="Cara_Batman.png" class="img-circle" alt="Lights" style="width:10%">
+							batman
 						</footer>
 					</blockquote>
 				</div>
@@ -160,33 +184,124 @@
 		</section>
 	</div><!..end container..>
 
+	<div class="container">
+		<section>
+			<div class="page-header" id="features">
+  				<h2>Features</h2>
+  			</div><!-- End Page Header -->
+
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>This is the heading</h3>
+  					<p>something here</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="illidan.jpg" class="img-responsive" alt="image">
+  				</div>
+  			</div><!-- End row -->
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>This is the heading</h3>
+  					<p>something here</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="smartphone.jpg" class="img-responsive" alt="image">
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>This is the heading</h3>
+  					<p>something here describe the picture</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="user.jpg" class="img-responsive" alt="image">
+  				</div>
+  			</div>
+
+  			<hr>
+
+  			<div class="row">
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-ok"></span>
+  							<h4>This is the Heading</h4>
+  							<p>This is the content</p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-star"></span>
+  							<h4>This is the Heading</h4>
+  							<p>this is the content</p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-play-circle"></span>
+  							<h4>This is the Heading</h4>
+  							<p>Jellyfish yay</p>
+  						</div>
+  					</div>
+  				</div>
+  			</div><!-- end row -->
+
+		</section>
+	</div><!-- End Container -->
+
+
 </div>
 
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
+    //document.getElementById("main").style.marginLeft = "250px";
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
+    //document.getElementById("main").style.marginLeft= "0";
 }
 </script>
 	
 
 
-	
+	<!..Footer..>
+	<footer class="site-footer" id="site-footer">
+		<a href="#site-wrapper" class="back-to-top" id="back-to-top">
+			<img src="Cara_Batman.png" class="img-circle" alt="engageinteractive">
+		</a>
+		<p id="footer-strapline">
+			<div style="position: relative; display: inline-block; opacity: 1;">N</div>
+			<div style="position: relative; display: inline-block; opacity: 1;">h</div>
+			<div style="position: relative; display: inline-block; opacity: 1;">o</div>
+			<div style="position: relative; display: inline-block; opacity: 1;">x</div>
+			<div style="position: relative; display: inline-block; opacity: 1;">T</div>
+			<div style="position: relative; display: inline-block; opacity: 1;">o</div>
+			<div style="position: relative; display: inline-block; opacity: 1;">o</div>
+			<div style="position: relative; display: inline-block; opacity: 1;">n</div>
+			<div style="position: relative; display: inline-block; opacity: 1;">g</div>
+		</p>
+		<div class="bottom clearfix">
+			::before
+			<div class="container-large">
+				<li><a href="" class ="dimmed">Business Name</a>
+				<li><a href="">Tel: 0965116032</a>
+			</div>
+		</div>
 
-<!..call to action..>
-	<section>
-		<div class="well">
-			<div class="container text-center">
-				
-			</div><!..end container>
-		</div><!..end well>
-	</section>	
+	</footer>
 
+
+	<script type="text/javascript" id>
+		!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","707805222691929");fbq("track","PageView");
+	</script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
